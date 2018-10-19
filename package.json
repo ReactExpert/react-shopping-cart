@@ -1,0 +1,44 @@
+{
+  "name": "react-shopping-cart",
+  "version": "0.1.0",
+  "description": "Shopping cart",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "node-sass-chokidar": "^1.3.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "^1.1.5",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "server": "nodemon --watch public server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffersonRibeiro/react-shopping-cart.git"
+  },
+  "keywords": [
+    "React",
+    "eCommerce"
+  ],
+  "author": "Jefferson Ribeiro",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "bugs": {
+    "url": "https://github.com/jeffersonRibeiro/react-shopping-cart/issues"
+  },
+  "homepage": "https://react-shopping-cart-67954.firebaseapp.com/"
+}
